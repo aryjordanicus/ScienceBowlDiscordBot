@@ -134,11 +134,7 @@ async def h():
 
     await bot.say(embed=embed)
 
-<<<<<<< HEAD
-r=open('.config', 'r')
-=======
 r=open('config.txt', 'r')
->>>>>>> 4df113b7b928a06e6fd1ff60eb543dd72ded1f50
 l=r.readlines()
 TOKEN=l[0]
 r.close()
